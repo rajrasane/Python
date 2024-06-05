@@ -1,4 +1,4 @@
-# all_on_python
+# Python Notes
 
 This repository contains my personal learning notes for Python
 
