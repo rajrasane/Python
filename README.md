@@ -10,4 +10,4 @@ I am using this repo to store my Python learning notes. <br> Each py file corres
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/rajrasane04/all_on_pythton.git
+   git clone https://github.com/rajrasane04/pyNOTES.git
