@@ -31,3 +31,30 @@ print(x <= y)  # Less than or equal to
 print(x > 5 and y < 10)  # and
 print(x > 5 or y < 5)    # or
 print(not(x > 5 and y < 10))  # not
+
+# ---------------------------------------------------------------------------------------------------------------------------------------
+
+# 4) Assignment Operators
+
+x = 10
+x += 5  # x = x + 5
+x -= 5  # x = x - 5
+x *= 5  # x = x * 5
+x /= 5  # x = x / 5
+x %= 5  # x = x % 5
+x **= 5 # x = x ** 5
+x //= 5 # x = x // 5
+
+# ---------------------------------------------------------------------------------------------------------------------------------------
+
+# 5) Bitwise Operators
+
+x = 5  # 0b0101
+y = 3  # 0b0011
+
+print(x & y)  # AND
+print(x | y)  # OR
+print(x ^ y)  # XOR
+print(~x)     # NOT
+print(x << 1) # Zero fill left shift
+print(x >> 1) # Signed right shift
