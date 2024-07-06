@@ -58,3 +58,32 @@ print(x ^ y)  # XOR
 print(~x)     # NOT
 print(x << 1) # Zero fill left shift
 print(x >> 1) # Signed right shift
+
+
+# ---------------------------------------------------------------------------------------------------------------------------------------
+
+# Special Operators in Python
+
+
+# 1. Membership Operators (in and not in):
+
+# - These operators check whether an element exists in a sequence (e.g., string, list, tuple).
+# - They return a Boolean value (True or False).
+# Examples:-
+"o" in "Hello" # evaluates to True.
+5 not in [1, 2, 3] # evaluates to True.
+
+
+# 2. Identity Operators (is and is not):
+
+# - These operators compare memory addresses of two objects.
+# - They determine if two variables refer to the same object (i.e., share the same memory location).
+# Examples:-
+x = 90
+y = 90
+
+a = "raj"
+b= "raja"
+
+print(x is y) # checks if x and y point to the same object.
+print(a is not b) # checks if a and b do not point to the same object.
