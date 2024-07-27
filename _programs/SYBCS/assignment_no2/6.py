@@ -6,10 +6,9 @@ def posprime():
         if(n>1):
             for i in range(2,(n//2)+1):
                 if(n%i==0 and i!=n):
-                    print(f"{n} is not prime.")
                     break
             else:
-                print(f"{n} is a prime")
+                print(n,end=" ")
 
         else:
             print("Number is not prime")
