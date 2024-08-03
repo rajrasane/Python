@@ -1,6 +1,6 @@
 # Python Notes
 
-This repository contains my personal learning notes for Python
+This repository contains my personal learning notes for Python as well as programs taught in college.
 
 ## Overview
 
