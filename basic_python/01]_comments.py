@@ -1,5 +1,5 @@
 
-# This is a comment
+# This is a singleline comment
 
 ''' This is a multi-line
 comment '''
