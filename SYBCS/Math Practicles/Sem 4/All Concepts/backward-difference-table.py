@@ -1,13 +1,10 @@
 import numpy as np
 
-# Get number of data points
 n = int(input("Enter number of data points: "))
 
-# Initialize x and y arrays
 x = np.zeros(n)
 y = np.zeros((n, n))
 
-# Input x and y values
 print("Enter data for x and y:")
 for i in range(n):
     x[i] = float(input(f"x[{i}] = "))
