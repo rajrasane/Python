@@ -1,8 +1,8 @@
 import math
 
 def simpson_rule(f, a, b, n):
-    if n % 2 == 1:  # Simpson's rule requires an even number of subintervals
-        raise ValueError("n must be an even number")
+    if n % 2 == 1:  
+        return ("n must be an even number")
 
     h = (b - a) / n
     I = f(a) + f(b)
@@ -15,10 +15,9 @@ def simpson_rule(f, a, b, n):
 
     I *= h / 3
 
-    print(f"Approximate Integration for function dx from {a} to {b} with {n} sub-intervals is: {I}")
+    return (f"Result : {I}")
 
-# Example: Integral from 0 to π for sin(x) where n = 4
-def sin_func(x):
+def f(x):
     return math.sin(x)
 
-simpson_rule(sin_func, 0, math.pi, 4)
+print(simpson_rule(f, 0, math.pi, 4))

@@ -3,10 +3,13 @@ import numpy as np
 n = int(input("Enter number of data points : "))
 x = np.zeros((n))
 y = np.zeros((n))
+
 print("Enter data for x and y : ")
+
 for i in range(n):
     x[i] = float(input('x['+str(i)+'] = '))
     y[i] = float(input('y['+str(i)+'] = '))
+
 xp = float(input("Enter interpolation point : "))
 yp = 0
 

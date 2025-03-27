@@ -16,3 +16,4 @@ def f(x):
 # Example Usage
 result = Tr(0, math.pi, 4, f)
 print(f"Approximate integral: {result}")
+

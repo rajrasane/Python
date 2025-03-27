@@ -21,14 +21,12 @@ for i in range(n):
         print(f"{y[i][j]:.2f}", end="  ")
     print()
 
-# Function to calculate u term for interpolation
 def u_calculate(u, n):
     result = u
     for i in range(1, n):
         result *= (u - i)
     return result
 
-# Factorial function
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -37,7 +35,6 @@ def factorial(n):
         fact *= i
     return fact
 
-# Input value to interpolate
 value = float(input("\nEnter the value to interpolate: "))
 
 # Applying Newton's Forward Interpolation Formula
@@ -47,5 +44,4 @@ interpolated_value = y[0][0]
 for i in range(1, n):
     interpolated_value += (u_calculate(u, i) * y[0][i]) / factorial(i)
 
-# Display interpolated result
 print(f"\nValue at x = {value} is {round(interpolated_value, 6)}")
