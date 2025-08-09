@@ -1,3 +1,4 @@
+# Creating a graph & adding single node or edge
 import networkx as nx
 import matplotlib.pyplot as plt
 

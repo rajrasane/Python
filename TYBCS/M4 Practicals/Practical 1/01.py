@@ -1,3 +1,4 @@
+# Creating Simple Undirected Graph & Plotting it using NetworkX and Matplotlib
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -10,4 +11,4 @@ g.add_nodes_from(v)
 g.add_edges_from(e)
 
 nx.draw(g)
-plt.show()  
+plt.show() 

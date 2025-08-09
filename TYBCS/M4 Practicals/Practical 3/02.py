@@ -1,3 +1,4 @@
+# Using a graph represented by an adjacency matrix as numpy array
 import numpy as np
 import matplotlib.pyplot as plt
 import networkx as nx

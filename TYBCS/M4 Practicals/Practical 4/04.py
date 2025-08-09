@@ -1,3 +1,4 @@
+# Program to check whether a graph is directed, bipartite, connected, or k-regular
 import networkx as nx
 
 s = nx.star_graph(6)

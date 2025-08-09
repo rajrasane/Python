@@ -1,4 +1,4 @@
-# subgraph 
+# Vertex induced subgraph
 
 import networkx as nx
 import matplotlib.pyplot as plt

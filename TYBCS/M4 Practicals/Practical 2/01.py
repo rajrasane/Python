@@ -1,3 +1,4 @@
+# Creating a graph with vertex labels , colors 
 import networkx as nx
 import matplotlib.pyplot as plt
 

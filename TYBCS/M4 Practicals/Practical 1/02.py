@@ -1,3 +1,4 @@
+# Creating graph with only edgeset is also possible vertices will be created automatically
 import networkx as nx
 import matplotlib.pyplot as plt
 

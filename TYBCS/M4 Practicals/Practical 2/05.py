@@ -1,3 +1,4 @@
+# Program for generating a directed graph
 import networkx as nx
 import matplotlib.pyplot as plt
 

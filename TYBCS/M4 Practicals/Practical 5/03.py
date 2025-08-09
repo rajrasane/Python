@@ -1,4 +1,4 @@
-# Graph Operations
+# Graph Operations : Intersection of two graphs
 
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -22,19 +22,3 @@ plt.show()
 ginter = nx.intersection(g1, g2)
 nx.draw(ginter, with_labels=True)
 plt.show()
-
-# union of g1 and g2
-union = nx.compose(g1, g2)
-nx.draw(union, with_labels=True)
-plt.show()
-
-# disjoint union of g1 and g2
-dis_uni = nx.disjoint_union(g1, g2)
-nx.draw(dis_uni, with_labels=True)  
-plt.show()
-
-# # union with renaming
-guni = nx.union(g1, g2, rename=("g1", "g2"))
-nx.draw(guni, with_labels=True)
-plt.show()
-

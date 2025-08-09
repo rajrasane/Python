@@ -1,3 +1,4 @@
+# Program for finding number of vertices ,edges, vertex set
 import networkx as nx
 import matplotlib.pyplot as plt
 
